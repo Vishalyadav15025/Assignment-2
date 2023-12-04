@@ -1,0 +1,70 @@
+/* Font and Basic Styling */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header Styling */
+header {
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* General Section Styling */
+section {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Flexbox Section Styling */
+.flex-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ecf0f1;
+}
+
+/* Grid Section Styling */
+.grid-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    background-color: #2ecc71;
+}
+
+/* Animation Section Styling */
+.animation-section {
+    background-color: #e74c3c;
+}
+
+/* Button Styling with Looping Animation */
+button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #f39c12;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    /* Looping Animation */
+    animation: colorChange 3s infinite alternate;
+}
+
+/* Color Change Animation Definition */
+@keyframes colorChange {
+    from {
+        background-color: #f39c12;
+    }
+    to {
+        background-color: #d35400;
+    }
+}
+
+/* Button Hover Styling */
+button:hover {
+    background-color: #d35400;
+}
+
+
